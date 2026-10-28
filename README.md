@@ -31,6 +31,10 @@ claude mcp add --transport http air-bandenservice https://www.airbandenservice.c
 }
 ```
 
+## Agent skill
+
+[`skills/air-bandenservice-tyres/SKILL.md`](skills/air-bandenservice-tyres/SKILL.md) tells an agent when to use this server and how to order. Drop it into your agent's skills folder (e.g. `~/.claude/skills/`).
+
 ## Tools
 
 | Tool | What it does | Side effects |
