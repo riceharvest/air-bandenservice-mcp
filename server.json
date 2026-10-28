@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.airbandenservice/tyres",
+  "title": "AIR Bandenservice Haarlem",
+  "description": "Car tyres in Haarlem, NL: search by size, all-in prices, fitting slots, order and pay via Mollie.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.airbandenservice.com/nl",
+  "repository": {
+    "url": "https://github.com/riceharvest/air-bandenservice-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.airbandenservice.com/mcp"
+    }
+  ]
+}
